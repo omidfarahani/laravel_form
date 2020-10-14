@@ -2,6 +2,7 @@
     "name": "omidfarahani/laravel_form",
     "description": "This package simplifies the process of building and handling forms in laravel applications",
     "type": "library",
+    "license": "GPL-3.0-or-later",
     "require": {
         "php": "7.*"
     },
@@ -11,7 +12,7 @@
             "email": "omidrezav@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "omidfarahani\\laravel_form\\": "src/"
