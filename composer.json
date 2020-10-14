@@ -17,5 +17,12 @@
         "psr-4": {
             "omidfarahani\\laravel_form\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "omidfarahani\\laravel_form\\LaravelFormServiceProvider"
+            ]
+        }
     }
 }

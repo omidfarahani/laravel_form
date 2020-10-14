@@ -4,11 +4,16 @@ namespace omidfarahani\laravel_form\Fields;
 
 use omidfarahani\laravel_form\Field;
 
-class TextField implements Field{
+class TextField extends AbstractField{
 
     function get_html()
     {
-        // TODO: Implement get_html() method.
+        if( $this->has_view() ){
+            return '2';
+        }
+        else{
+            return dirname( dirname( __DIR__ ) ) . '\views\text.blade.php';
+        }
     }
 
     function validate()
