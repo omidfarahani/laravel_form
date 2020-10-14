@@ -11,5 +11,10 @@
             "email": "omidrezav@gmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "omidfarahani\\laravel_form\\": "src/"
+        }
+    }
 }
